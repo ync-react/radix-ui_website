@@ -13,4 +13,5 @@ export const MarketingCaption = styled(Text, {
     size: 3,
     variant: 'teal',
   },
+  length: 0,
 });

@@ -329,6 +329,7 @@ const CodeWindow = styled('div', {
       },
     },
   },
+  length: 0,
 });
 
 const BlendedCard = styled(Card, {
@@ -385,6 +386,7 @@ const BlendedCard = styled(Card, {
       },
     },
   },
+  length: 0,
 });
 
 const code = {

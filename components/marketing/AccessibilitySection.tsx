@@ -737,6 +737,7 @@ const MockDropdownSeparator = styled('div', {
   mr: 10,
   my: 5,
   bc: '$mauve5',
+  length: 0,
 });
 
 const MockDropdown = ({ state }: { state?: MockDropdownState }) => {
@@ -868,7 +869,7 @@ const MockTypeaheadOutput = styled(Text, {
     bc: '$indigo3',
   },
   variants: {
-    size: {}, // Including as a workaround for TS bugs with defaultVariants
+    size: {},
     variant: {
       contrast: {
         color: '$indigo12',
@@ -882,6 +883,7 @@ const MockTypeaheadOutput = styled(Text, {
     variant: 'contrast',
     size: '2',
   },
+  length: 0,
 });
 
 const MockQwertyKeyboard = ({ currentKey }: { currentKey?: string }) => {
@@ -1051,6 +1053,7 @@ const Key = styled('span', {
   defaultVariants: {
     size: 1,
   },
+  length: 0,
 });
 
 const MockDropdownButton = styled(Box, {
@@ -1081,6 +1084,7 @@ const MockDropdownButton = styled(Box, {
       },
     },
   },
+  length: 0,
 });
 
 const MockDropdownContent = styled(Box, {
@@ -1117,6 +1121,7 @@ const MockDropdownContent = styled(Box, {
   defaultVariants: {
     open: false,
   },
+  length: 0,
 });
 
 const MockDropdownItem = styled(Box, {
@@ -1167,6 +1172,7 @@ const MockDropdownItem = styled(Box, {
   defaultVariants: {
     indent: 0,
   },
+  length: 0,
 });
 
 const MockDropdownCheckboxItem = ({
@@ -1197,6 +1203,7 @@ const GlassCard = styled(Card, {
     bc: '$whiteA2',
     boxShadow: 'inset 0 0 0 1px $colors$whiteA4',
   },
+  length: 0,
 });
 
 const Triangle = (props: React.ComponentProps<typeof Box>) => (
@@ -1379,6 +1386,7 @@ const SpeakerIconWrapper = styled('div', {
       },
     },
   },
+  length: 0,
 });
 
 const AnimationStateButton = styled('button', {
@@ -1431,4 +1439,5 @@ const AnimationStateButton = styled('button', {
   defaultVariants: {
     active: false,
   },
+  length: 0,
 });

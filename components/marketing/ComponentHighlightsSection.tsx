@@ -44,6 +44,7 @@ const InlineDropdownTrigger = styled(DropdownMenuPrimitive.Trigger, {
       boxShadow: '0 0 0 1px $colors$slateA8',
     },
   },
+  length: 0,
 });
 
 const ThickCaretDown = (props: React.ComponentProps<'svg'>) => {
@@ -69,6 +70,7 @@ const ThickCaretDown = (props: React.ComponentProps<'svg'>) => {
 
 const InlineDropdownArrow = styled(DropdownMenuPrimitive.Arrow, {
   fill: '$panel',
+  length: 0,
 });
 
 const InlineDropdownContent = styled(DropdownMenuPrimitive.Content, {
@@ -76,6 +78,7 @@ const InlineDropdownContent = styled(DropdownMenuPrimitive.Content, {
   boxShadow: '0px 5px 30px -5px $colors$shadowDark',
   p: '$1',
   br: '$3',
+  length: 0,
 });
 
 const InlineDropdownRadioItem = styled(DropdownMenuPrimitive.RadioItem, {
@@ -101,6 +104,7 @@ const InlineDropdownRadioItem = styled(DropdownMenuPrimitive.RadioItem, {
   '&[data-state="checked"]': {
     display: 'none',
   },
+  length: 0,
 });
 
 type Components =
@@ -139,7 +143,7 @@ export const ComponentHighlightsSection = () => {
             So, you think you can <span style={{ whiteSpace: 'nowrap' }}>build a dropdown?</span>
           </Heading>
 
-          {/* <DropdownMenuPrimitive.Root>
+          <DropdownMenuPrimitive.Root>
             <Heading as="h2" size="3" css={{ mb: '$3' }}>
               So, you think you can{' '}
               <span style={{ whiteSpace: 'nowrap' }}>
@@ -151,7 +155,7 @@ export const ComponentHighlightsSection = () => {
                 ?
               </span>
             </Heading>
-            <InlineDropdownContent sideOffset={5}>
+            <InlineDropdownContent>
               <InlineDropdownArrow />
               <DropdownMenuPrimitive.RadioGroup
                 value={component}
@@ -166,7 +170,7 @@ export const ComponentHighlightsSection = () => {
                 <InlineDropdownRadioItem value="tooltip">tooltip</InlineDropdownRadioItem>
               </DropdownMenuPrimitive.RadioGroup>
             </InlineDropdownContent>
-          </DropdownMenuPrimitive.Root> */}
+          </DropdownMenuPrimitive.Root>
 
           <Box css={{ maxWidth: 480 }}>
             {component === 'dropdown' && (
@@ -575,6 +579,7 @@ const FancyCheckMark = styled(CheckIcon, {
   height: '$5',
   borderRadius: '$round',
   flex: 'none',
+  length: 0,
 });
 
 const Circle = ({

@@ -147,6 +147,15 @@ export default function CaseStudy() {
                 </AccessibleIcon>
               </LogoLink>
             </NextLink>
+            <NextLink href="/case-studies/teamflow" passHref>
+              <LogoLink variant="box">
+                <AccessibleIcon label="Teamflow case study">
+                  <Flex justify="center" css={{ height: '100%' }}>
+                    <CaseStudyLogo variant="Teamflow" />
+                  </Flex>
+                </AccessibleIcon>
+              </LogoLink>
+            </NextLink>
             <NextLink href="/case-studies/university-of-amsterdam" passHref>
               <LogoLink variant="box">
                 <AccessibleIcon label="University of Amsterdam case study">
@@ -177,7 +186,7 @@ export default function CaseStudy() {
             <Paragraph css={{ ta: 'center' }}>
               We’d love to hear how you use Radix or Stitches.{' '}
               <Link
-                href="https://modulz.typeform.com/to/wplAbXHK"
+                href="https://modulz.typeform.com/to/FxOiONsk"
                 target="_blank"
                 css={{ display: 'inline-flex' }}
               >

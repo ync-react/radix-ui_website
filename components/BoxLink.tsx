@@ -14,4 +14,5 @@ export const BoxLink = styled('a', {
   '&:focus:not(:focus-visible)': {
     boxShadow: 'none',
   },
+  length: 0,
 });

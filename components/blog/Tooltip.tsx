@@ -27,6 +27,7 @@ const StyledButton = styled(Tooltip.Trigger, {
   '&:focus': {
     boxShadow: `0 0 0 2px ${theme.colors.violet8.value}`,
   },
+  length: 0,
 });
 
 const StyledContent = styled(Tooltip.Content, {
@@ -43,10 +44,12 @@ const StyledContent = styled(Tooltip.Content, {
     transformOrigin: 'var(--radix-tooltip-content-transform-origin)',
     animation: `${scaleIn} 300ms cubic-bezier(0.87, 0, 0.13, 1) forwards`,
   },
+  length: 0,
 });
 
 const StyledArrow = styled(Tooltip.Arrow, {
   fill: theme.colors.violet9.value,
+  length: 0,
 });
 
 export const TooltipDemo = (props) => {

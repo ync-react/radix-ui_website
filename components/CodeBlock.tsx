@@ -26,6 +26,7 @@ type CodeBlockProps = PreProps & {
   line?: string;
   css?: any;
   showLineNumbers?: boolean;
+  variant?: string;
 };
 
 export const CodeBlock = React.forwardRef<HTMLPreElement, CodeBlockProps>(

@@ -18,6 +18,7 @@ const StyledAccordion = styled(Accordion.Root, {
   borderRadius: '$3',
   width: 320,
   overflow: 'hidden',
+  length: 0,
 });
 
 const StyledItem = styled(Accordion.Item, {
@@ -33,11 +34,13 @@ const StyledItem = styled(Accordion.Item, {
       boxShadow: `0 0 0 2px ${theme.colors.slate7.value}`,
     },
   },
+  length: 0,
 });
 
 const StyledHeader = styled(Accordion.Header, {
   margin: 0,
   display: 'flex',
+  length: 0,
 });
 
 const StyledButton = styled(Accordion.Trigger, {
@@ -70,6 +73,7 @@ const StyledButton = styled(Accordion.Trigger, {
   '&:focus': {
     outline: 'none',
   },
+  length: 0,
 });
 
 const StyledPanel = styled(Accordion.Content, {
@@ -86,6 +90,7 @@ const StyledPanel = styled(Accordion.Content, {
       animation: `${slideUp} 300ms cubic-bezier(0.87, 0, 0.13, 1) forwards`,
     },
   },
+  length: 0,
 });
 
 const AccordionChevron = styled(ChevronDownIcon, {
@@ -96,6 +101,7 @@ const AccordionChevron = styled(ChevronDownIcon, {
     transform: 'rotate(180deg)',
     color: theme.colors.violet10.value,
   },
+  length: 0,
 });
 
 export const AccordionDemo = (props) => {

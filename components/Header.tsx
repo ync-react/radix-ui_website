@@ -227,4 +227,5 @@ const HighlightLink = styled('a', {
   '&:focus:not(:focus-visible)': {
     boxShadow: 'none',
   },
+  length: 0,
 });

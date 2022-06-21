@@ -376,58 +376,7 @@ export const AccessibilitySection = () => {
             bottom: -300,
           },
         }}
-      >
-        <Box
-          css={{
-            position: 'absolute',
-            border: '10px solid $colors$greenA3',
-            transform: 'rotate(-15deg)',
-            width: 320,
-            height: 320,
-            top: 0,
-            left: 50,
-            '@bp1': {
-              width: 520,
-              height: 520,
-              top: 0,
-              left: 55,
-            },
-          }}
-        />
-        <Triangle
-          css={{
-            color: '$blueA3',
-            position: 'absolute',
-            transform: 'rotate(10deg)',
-            width: 420,
-            left: 100,
-            top: 300,
-            '@bp1': {
-              transform: 'rotate(135deg)',
-              width: 674,
-              left: 535,
-              top: 65,
-            },
-          }}
-        />
-        <Box
-          css={{
-            position: 'absolute',
-            br: '$round',
-            border: '10px solid $colors$tomatoA3',
-            top: 700,
-            left: 0,
-            width: 400,
-            height: 400,
-            '@bp1': {
-              top: -55,
-              left: 935,
-              width: 610,
-              height: 610,
-            },
-          }}
-        />
-      </Box>
+      ></Box>
 
       <Container size="3" css={{ position: 'relative' }}>
         <Box css={{ mb: '$5' }}>

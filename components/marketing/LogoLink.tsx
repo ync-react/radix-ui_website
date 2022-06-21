@@ -57,4 +57,5 @@ export const LogoLink = styled('a', {
   defaultVariants: {
     variant: 'normal',
   },
+  length: 0,
 });
